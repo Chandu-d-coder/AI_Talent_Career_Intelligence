@@ -250,9 +250,7 @@ Additional project documentation is available inside the `docs` folder.
 
 ## 👨‍💻 About Me
 
-**Crypton**
-
-MCA (2025–2027)
+**Chandra Saikumar aka Chandu**
 
 Aspiring AI Engineer
 
