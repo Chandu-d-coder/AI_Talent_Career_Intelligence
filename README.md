@@ -35,7 +35,6 @@ The goal is not just to analyze data, but to think like a Workforce Intelligence
   - [⚙️ Technology Stack](#️-technology-stack)
   - [💻 Local Setup](#-local-setup)
   - [🏗 Project Workflow](#-project-workflow)
-  - [📂 Repository Structure](#-repository-structure)
   - [📈 Current Progress](#-current-progress)
     - [✅ Phase 1 Completed](#-phase-1-completed)
     - [🚧 Current Phase](#-current-phase)
@@ -180,28 +179,6 @@ Phase 4 → Business Intelligence & Insights
 
 Phase 5 → Executive Reporting
 ```
-
----
-
-## 📂 Repository Structure
-
-```text
-data/
-├── raw/
-├── processed/
-└── external/
-
-docs/
-
-notebooks/
-
-reports/
-
-src/
-
-visualizations/
-```
-
 ---
 
 ## 📈 Current Progress
