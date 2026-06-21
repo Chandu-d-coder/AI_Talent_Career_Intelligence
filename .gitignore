@@ -1,0 +1,73 @@
+# Python
+
+**pycache**/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+
+venv/
+env/
+ENV/
+.venv/
+
+# Jupyter Notebook
+
+.ipynb_checkpoints/
+
+# VS Code
+
+.vscode/
+
+# PyCharm
+
+.idea/
+
+# Logs
+
+logs/
+*.log
+
+# Environment Variables
+
+.env
+
+# Python Build Files
+
+build/
+dist/
+*.egg-info/
+
+# Testing
+
+.pytest_cache/
+.coverage
+htmlcov/
+
+# OS Files
+
+.DS_Store
+Thumbs.db
+
+# Data Exports
+
+data/processed/*.csv
+data/processed/*.xlsx
+data/exports/*
+
+# Generated Visualizations
+
+visualizations/generated/
+
+# Temporary Files
+
+temp/
+tmp/
+
+# Cache
+
+.cache/
+
+# Local Config Overrides
+
+config/local_config.py
