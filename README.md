@@ -234,27 +234,18 @@ This project enables organizations to:
 
 ---
 
-# 📁 Project Structure
+## 📁 Project Structure
 
 ```text
 AI_TALENT_CAREER_INTELLIGENCE/
 │
-├── assets/
-│   ├── images/
-│   └── icons/
-│
-├── config/
-│   └── config.py
-│
 ├── data/
-│   ├── raw/
-│   │   ├── ai_jobs.csv
-│   │   ├── country_ai_trends.csv
-│   │   ├── job_title_mapping.csv
-│   │   └── skills_demand.csv
-│   │
 │   ├── processed/
-│   └── external/
+│   │   └── cleaned_ai_jobs.csv
+│   │
+│   └── raw/
+│       ├── ai_jobs.csv
+│       └── ai_jobs.xlsx
 │
 ├── docs/
 │   ├── CHANGELOG.md
@@ -269,33 +260,25 @@ AI_TALENT_CAREER_INTELLIGENCE/
 │   ├── 03_intelligence_framework.ipynb
 │   ├── 04_workforce_analytics.ipynb
 │   ├── 05_business_insights.ipynb
-│   └── 06_executive_reporting.ipynb
+│   ├── 06_executive_reporting.ipynb
+│   └── 07_visual_analytics.ipynb
 │
 ├── reports/
-│   ├── Business_findings.md
 │   └── insight_summary.md
 │
-├── src/
-│   ├── data_loader.py
-│   ├── preprocessing.py
-│   ├── feature_engineering.py
-│   ├── analytics.py
-│   └── visualization.py
-│
 ├── visualizations/
-│   ├── salary_intelligence/
-│   ├── career_growth/
-│   ├── workforce_risk/
-│   ├── talent_market/
-│   ├── employee_experience/
-│   └── recruitment/
+│   ├── 01_salary_intelligence/
+│   ├── 02_career_growth/
+│   ├── 03_workforce_risk/
+│   ├── 04_talent_market/
+│   ├── 05_employee_experience/
+│   └── 06_recruitment/
 │
 ├── .gitignore
-├── requirements.txt
-└── README.md
+├── LICENSE
+├── README.md
+└── requirements.txt
 ```
-
----
 
 # 🏗 Project Architecture
 
