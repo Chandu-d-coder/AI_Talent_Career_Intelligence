@@ -1,71 +1,518 @@
 # Project Architecture
 
-## Project Name
+This document describes the architecture, workflow, and overall design of the **AI Talent & Career Intelligence Platform**.
 
-TalentLens AI
-
-## Project Type
-
-Workforce And Career Intelligence Platform
-
-## Objective
-
-Transform Workforce Data Into Actionable Career, Hiring, Salary, Skill And Workforce Intelligence.
+The project follows a structured end-to-end data analytics pipeline that transforms raw workforce data into executive-level business intelligence.
 
 ---
 
-## Workflow
+# High-Level Architecture
 
-Dataset
+```text
+                    AI Talent & Career Intelligence Platform
+
+                                Raw Dataset
+                                     │
+                                     ▼
+                          Phase 1 : Data Audit
+                                     │
+                                     ▼
+                        Phase 2 : Data Cleaning
+                                     │
+                                     ▼
+                  Phase 3 : Intelligence Framework
+                                     │
+                                     ▼
+                  Phase 4 : Workforce Analytics
+                                     │
+          ┌──────────────┬──────────────┬──────────────┐
+          │              │              │              │
+          ▼              ▼              ▼              ▼
+ Salary Intelligence  Career Growth  Workforce Risk  Talent Market
+          │              │              │              │
+          └──────────────┴──────────────┴──────────────┘
+                                     │
+                                     ▼
+                     Employee Experience Intelligence
+                                     │
+                                     ▼
+                     Recruitment Intelligence
+                                     │
+                                     ▼
+                    Phase 5 : Business Findings
+                                     │
+                                     ▼
+                  Phase 6 : Executive Reporting
+                                     │
+                                     ▼
+                    Strategic Business Recommendations
+```
+
+---
+
+# Project Layers
+
+The project is divided into six logical layers.
+
+```text
+Dataset Layer
+
 ↓
-Data Intelligence Audit
+
+Data Processing Layer
+
 ↓
-Data Preparation
+
+Analytics Layer
+
 ↓
+
+Business Intelligence Layer
+
+↓
+
+Executive Reporting Layer
+
+↓
+
+Documentation Layer
+```
+
+---
+
+# Layer 1: Dataset Layer
+
+The project begins with structured workforce datasets stored in CSV format.
+
+## Input Files
+
+```text
+ai_jobs.csv
+
+country_ai_trends.csv
+
+skills_demand.csv
+
+job_title_mapping.csv
+```
+
+These datasets provide information about:
+
+- Employees
+- Organizations
+- Salaries
+- Career Growth
+- Recruitment
+- Workforce Metrics
+- AI Specializations
+
+---
+
+# Layer 2: Data Processing Layer
+
+This layer prepares the raw data for analysis.
+
+Major activities include:
+
+- Dataset inspection
+- Missing value analysis
+- Duplicate detection
+- Data validation
+- Data cleaning
+- Data transformation
+- Data standardization
+
+Output:
+
+A clean analytical dataset ready for workforce intelligence.
+
+---
+
+# Layer 3: Analytics Layer
+
+This is the core analytical engine of the project.
+
+Six workforce intelligence modules were developed.
+
+```text
+Salary Intelligence
+
+↓
+
+Career Growth Intelligence
+
+↓
+
+Workforce Risk Intelligence
+
+↓
+
+Talent Market Intelligence
+
+↓
+
+Employee Experience Intelligence
+
+↓
+
+Recruitment Intelligence
+```
+
+Each module follows the same workflow.
+
+```text
+Core Analytics
+
+↓
+
+Relationship Analytics
+
+↓
+
 Feature Engineering
+
 ↓
-Exploratory Analysis
+
+Visual Analytics
+
 ↓
-Business Intelligence
-↓
-Executive Reporting
+
+Business Findings
+```
 
 ---
 
-## Intelligence Modules
+# Layer 4: Business Intelligence Layer
 
-### Career Intelligence
+This layer converts analytical results into business knowledge.
 
-Analyze Career Growth Patterns And Promotion Opportunities.
+Outputs include:
 
-### Salary Intelligence
+- Workforce KPIs
+- Business Findings
+- Cross-Module Insights
+- Executive Summaries
+- Strategic Recommendations
 
-Analyze Compensation Trends Across Workforce Segments.
-
-### Skill Intelligence
-
-Analyze Demand For AI Skills And Specializations.
-
-### Workforce Intelligence
-
-Analyze Market Demand And Workforce Trends.
-
-### Hiring Intelligence
-
-Analyze Recruitment Complexity And Hiring Efficiency.
-
-### Risk Intelligence
-
-Analyze Layoff Risk, Automation Risk And Job Security.
-
-### Geographic Intelligence
-
-Analyze Workforce Metrics Across Countries.
+The objective is to support data-driven decision making.
 
 ---
 
-## Current Status
+# Layer 5: Executive Reporting Layer
 
-Phase 1 Completed.
-Phase 2 Ready To Begin.
-****
+The final analytical outputs are consolidated into executive-level reports.
+
+Major sections include:
+
+- Executive Summary
+- Workforce KPI Dashboard
+- Intelligence Summaries
+- Executive Insights
+- Strategic Recommendations
+- Future Outlook
+- Final Conclusion
+
+This layer is designed for business leaders and decision-makers.
+
+---
+
+# Layer 6: Documentation Layer
+
+Professional documentation accompanies every stage of the project.
+
+Documentation includes:
+
+- README
+- Changelog
+- Data Dictionary
+- Future Scope
+- Interview Guide
+- Project Architecture
+- Business Findings
+- Executive Reporting
+
+---
+
+# Folder Architecture
+
+```text
+AI_TALENT_CAREER_INTELLIGENCE/
+
+│
+
+├── assets/
+
+├── config/
+
+├── data/
+
+│   ├── raw/
+
+│   ├── processed/
+
+│   └── external/
+
+│
+
+├── docs/
+
+│
+
+├── notebooks/
+
+│
+
+├── reports/
+
+│
+
+├── src/
+
+│
+
+├── visualizations/
+
+│
+
+├── requirements.txt
+
+├── .gitignore
+
+└── README.md
+```
+
+---
+
+# Notebook Workflow
+
+The notebooks should be executed in the following order.
+
+```text
+01_data_audit.ipynb
+
+↓
+
+02_data_cleaning.ipynb
+
+↓
+
+03_intelligence_framework.ipynb
+
+↓
+
+04_workforce_analytics.ipynb
+
+↓
+
+05_business_insights.ipynb
+
+↓
+
+06_executive_reporting.ipynb
+```
+
+Each notebook depends on the outputs generated by the previous phase.
+
+---
+
+# Analytical Workflow
+
+```text
+Import Dataset
+
+↓
+
+Audit Dataset
+
+↓
+
+Clean Dataset
+
+↓
+
+Explore Data
+
+↓
+
+Perform Workforce Analytics
+
+↓
+
+Engineer Features
+
+↓
+
+Create Visualizations
+
+↓
+
+Generate Business Findings
+
+↓
+
+Prepare Executive Report
+
+↓
+
+Publish Documentation
+```
+
+---
+
+# Technologies Used
+
+## Programming
+
+- Python
+
+## Data Processing
+
+- NumPy
+- Pandas
+
+## Data Visualization
+
+- Matplotlib
+- Seaborn
+
+## Development
+
+- Jupyter Notebook
+- Visual Studio Code
+
+## Version Control
+
+- Git
+- GitHub
+
+---
+
+# Feature Engineering Architecture
+
+Several business-oriented metrics were created to extend the analytical capabilities of the dataset.
+
+Examples include:
+
+- Total Compensation
+- Career Momentum Score
+- Workforce Stability Index
+- Talent Demand Index
+- Employee Experience Index
+- Recruitment Success Index
+- Candidate Attraction Score
+- Market Opportunity Index
+- Hiring Efficiency Score
+- Skill Premium Index
+
+These engineered features enable deeper workforce analysis beyond the original dataset.
+
+---
+
+# Visualization Architecture
+
+Professional visualizations were created across all workforce intelligence modules.
+
+Visualization categories include:
+
+- Histograms
+- Bar Charts
+- Boxplots
+- Scatter Plots
+- Line Charts
+- Heatmaps
+- Correlation Matrices
+- Distribution Plots
+
+More than **60 visualizations** support business insights throughout the project.
+
+---
+
+# Deliverables
+
+The project produces the following outputs.
+
+## Analytical Deliverables
+
+- Clean Dataset
+- Workforce KPIs
+- Feature Engineered Dataset
+- Business Intelligence Reports
+- Executive Dashboard
+
+---
+
+## Documentation Deliverables
+
+- README
+- Changelog
+- Data Dictionary
+- Future Scope
+- Interview Guide
+- Project Architecture
+- Business Findings
+- Executive Report
+
+---
+
+# Design Principles
+
+The project was developed using the following principles:
+
+- Modular Architecture
+- Reusable Analytics
+- Clear Folder Organization
+- Business-Oriented Analysis
+- Executive-Level Reporting
+- Professional Documentation
+- Reproducible Workflow
+- Portfolio-Ready Structure
+
+---
+
+# Future Architecture
+
+Future versions can extend the architecture with additional components.
+
+```text
+CSV Dataset
+
+↓
+
+SQL Database
+
+↓
+
+ETL Pipeline
+
+↓
+
+Machine Learning Models
+
+↓
+
+REST API
+
+↓
+
+Streamlit Dashboard
+
+↓
+
+Cloud Deployment
+
+↓
+
+Real-Time Workforce Analytics
+
+↓
+
+LLM-Based AI Assistant
+```
+
+---
+
+# Conclusion
+
+The **AI Talent & Career Intelligence Platform** follows a structured, modular, and scalable architecture that transforms raw workforce data into meaningful business intelligence.
+
+The separation of data processing, analytics, business reporting, and documentation ensures maintainability, reproducibility, and extensibility. The architecture also provides a strong foundation for future enhancements such as machine learning, interactive dashboards, cloud deployment, and AI-powered workforce intelligence systems.
