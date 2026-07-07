@@ -836,7 +836,7 @@ This project can be valuable for:
 ## Clone the Repository
 
 ```bash
-https://github.com/Chandu-d-coder/AI_Talent_Career_Intelligence.git
+git clone https://github.com/Chandu-d-coder/AI_Talent_Career_Intelligence.git
 ```
 
 ---
