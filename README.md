@@ -853,7 +853,7 @@ This project can be valuable for:
 ## Clone the Repository
 
 ```bash
-git clone https://github.com/your-username/AI_TALENT_CAREER_INTELLIGENCE.git
+https://github.com/Chandu-d-coder/AI_Talent_Career_Intelligence.git
 ```
 
 ---
@@ -861,7 +861,7 @@ git clone https://github.com/your-username/AI_TALENT_CAREER_INTELLIGENCE.git
 ## Navigate to the Project Directory
 
 ```bash
-cd AI_TALENT_CAREER_INTELLIGENCE
+cd AI_Talent_Career_Intelligence
 ```
 
 ---
@@ -880,14 +880,6 @@ python -m venv .venv
 ```bash
 python3 -m venv .venv
 source .venv/bin/activate
-```
-
----
-
-## Install Dependencies
-
-```bash
-pip install -r requirements.txt
 ```
 
 ---
@@ -918,6 +910,10 @@ Run the notebooks sequentially.
         ↓
 
 06_executive_reporting.ipynb
+
+        ↓
+
+06_visual_analytics.ipynb
 ```
 
 Following the above sequence ensures the analytical workflow remains consistent and reproducible.
@@ -1090,7 +1086,7 @@ Please provide appropriate attribution if substantial portions of the project ar
 
 # 👨‍💻 Author
 
-**Crypton**
+**Chandu**
 
 Master of Computer Applications (MCA)
 
@@ -1098,11 +1094,9 @@ Aspiring AI Engineer
 
 ### Connect With Me
 
-- GitHub: **https://github.com/your-github-username**
-- LinkedIn: **https://linkedin.com/in/your-linkedin-profile**
-- Email: **your-email@example.com**
-
-> Replace the above placeholders with your actual profile links before publishing.
+- GitHub: **https://github.com/Chandu-d-coder**
+- LinkedIn: **https://www.linkedin.com/in/chandrasai32/**
+- Email: **chanduofficial32@gmail.com**
 
 ---
 
@@ -1140,7 +1134,9 @@ Your support helps improve future open-source analytics projects.
 | Phase 2 – Data Cleaning | ✅ Completed |
 | Phase 3 – Intelligence Framework | ✅ Completed |
 | Phase 4 – Workforce Analytics | ✅ Completed |
-| Phase 5 – Executive Reporting | ✅ Completed |
+| Phase 5 – Business Insights | ✅ Completed |
+| Phase 6 – Executive Reporting | ✅ Completed |
+| Phase 7 – Visual Analytics | ✅ Completed |
 
 ---
 
